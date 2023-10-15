@@ -68,7 +68,7 @@ int main()
 	SetConsoleTitleW(L"Fortnite");
 	// get the log of fortnite in the %appdata% folder
 	std::string path = getenv("localappdata");
-    path.append(R"(\FortniteGame\Saved\Logs\FortniteGame.log)");
+    	path.append(R"(\FortniteGame\Saved\Logs\FortniteGame.log)");
 
 	parseLogs(path);
 	std::system("pause");
