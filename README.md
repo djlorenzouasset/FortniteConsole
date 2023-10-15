@@ -1,5 +1,5 @@
 # FortniteConsole
-A program creates a Debug console for Fortnite and shows every action the game perfoms.
+A program that creates a Debug console for Fortnite and shows every action the game perfoms.
 
 > NOTE: This program does not put your account at risk, you cannot get banned. The program uses public game logs to reproduce the console.
 
