@@ -15,17 +15,6 @@ std::vector<std::string> split(const std::string& str, const std::string& delim)
     return tokens;
 }
 
-const char* get(std::string& str, const std::string& toFind)
-{
-    std::size_t ind = str.find(toFind);
-    if (ind != std::string::npos) 
-    {
-        str.erase(ind, toFind.length());
-        return str.c_str();
-    }
-    return nullptr;
-}
-
 dye::R<std::string> colorString(std::string& str, const LogType& logType)
 {
     switch (logType)

@@ -9,9 +9,6 @@
 // split text in the string
 std::vector<std::string> split(const std::string& str, const std::string& delim);
 
-// get a word of the string
-const char* get(std::string& str, const std::string& toFind);
-
 // format a string to a colored log
 dye::R<std::string> colorString(std::string& str, const LogType& logType);
 
