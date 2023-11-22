@@ -36,3 +36,5 @@
 *.opendb
 *.ipch
 *.db-wal
+.vs/FortniteConsole/v17/.suo
+FortniteConsole/FortniteConsole.vcxproj.user
