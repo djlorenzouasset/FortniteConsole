@@ -30,11 +30,25 @@
 *.exe
 *.out
 *.app
+
+# Other shit
 *.vsidx
 *.db
 *.db-shm
 *.opendb
 *.ipch
 *.db-wal
-.vs/FortniteConsole/v17/.suo
-FortniteConsole/FortniteConsole.vcxproj.user
+*.vcxproj.user
+*.log
+*.tlog
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Folders
+x64/
+x86/
